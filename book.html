@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Books</title>
+    <link rel="stylesheet" href="./book.css">
+</head>
+
+<body>
+    <div class="main">
+        <header class="nav-top">
+            <nav class="nav-box">
+                <h1>Awesome Books</h1>
+                <ul class="nav-item">
+                    <li><a href="#list">List</a></li>
+                    <li><a href="#add-new">Add New</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="list" class="book-list">
+                <h2>All Awesome Books</h2>
+                <div class="head-card" aria-live="polite">
+                    <!-- Book list will be dynamically inserted here -->
+                </div>
+            </section>
+
+            <section id="add-new" class="add-book">
+                <h2>Add a new book</h2>
+                <form id="add-book-form">
+                    <div class="input-box">
+                        <input type="text" id="title" placeholder="Title" required>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" id="author" placeholder="Author" required>
+                    </div>
+                    <button type="submit">Add</button>
+                </form>
+            </section>
+
+            <section id="contact" class="contact">
+                <h2>Contact Information</h2>
+                <p>Do you have any questions or you just want to say "Hello"?</p>
+                <p>You can reach out to us!</p>
+                <ul>
+                    <li> e-mail: mail@mail.com</li>
+                    <li> phone number: 0043586534422</li>
+                    <li> address: Streetname 22, 84503 City, Country</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2023 Awesome Books. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>

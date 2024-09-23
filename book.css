@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gowun Batang", serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.nav-top {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+
+.nav-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.nav-box h1 {
+  font-size: 24px;
+  color: #2c3e50;
+}
+
+.nav-item {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-item li {
+  margin-left: 20px;
+}
+
+.nav-item li a {
+  text-decoration: none;
+  color: #3498db;
+  cursor: pointer;
+}
+
+.book-list h2 {
+  margin-bottom: 20px;
+}
+
+.head-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.book-info {
+  flex-grow: 1;
+}
+
+.head-card button {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+}
+
+.head-card button:hover {
+  background-color: #c0392b;
+}
+
+.head-card hr {
+  margin: 10px 0;
+  border: none;
+  border-top: 1px solid #ecf0f1;
+}
+
+.add-book h2 {
+  margin-bottom: 20px;
+}
+
+#add-book-form {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-box {
+  margin-bottom: 15px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bdc3c7;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #27ae60;
+}
+
+.contact {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+}
+
+.contact p {
+  margin-bottom: 10px;
+}
+
+.contact ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.contact li {
+  margin-bottom: 5px;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+  color: #7f8c8d;
+}
+
+@media (max-width: 600px) {
+  .nav-box {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-item {
+    margin-top: 10px;
+  }
+
+  .nav-item li {
+    margin-left: 0;
+    margin-right: 20px;
+  }
+}
