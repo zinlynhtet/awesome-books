@@ -89,7 +89,3 @@ class BookList {
 document.addEventListener('DOMContentLoaded', () => {
     new BookList();
 });
-
-// document.addEventListener('DOMContentLoaded', () => {
-//     new BookList();
-// });
