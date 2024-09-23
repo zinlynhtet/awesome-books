@@ -1,9 +1,4 @@
-class Book {
-  constructor(title, author) {
-    this.title = title;
-    this.author = author;
-  }
-}
+const { Book } = require('./Book.js');
 
 class BookList {
   constructor() {
@@ -87,5 +82,5 @@ class BookList {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  new BookList();
+  BookList();
 });
