@@ -1,4 +1,4 @@
-const { Book } = require('./Book.js');
+import Book from './Book.js';
 
 class BookList {
   constructor() {
